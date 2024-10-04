@@ -1,5 +1,5 @@
 package com.mycompany.exercicio02;
 
-public class AppJava {
+public class App {
     
 }
