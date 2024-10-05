@@ -8,5 +8,7 @@ public class Exercicio02 {
         
         System.out.println("Por favor nos informe seu nome:");
         String nome = scan.nextLine();
+        nome = nome.replace(" ", "");
+        System.out.println(nome.toLowerCase() + "@gmail.com");
     }
 }
