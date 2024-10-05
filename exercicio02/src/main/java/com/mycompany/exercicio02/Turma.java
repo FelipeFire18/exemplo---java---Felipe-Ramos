@@ -8,4 +8,13 @@ public class Turma {
         this.descricao = descricao;
         this.curso = curso;
     }
+
+    public String getDescricao() {
+        return this.descricao;
+    }
+
+    public Curso getCurso() {
+        return curso;
+    }
+    
 }
