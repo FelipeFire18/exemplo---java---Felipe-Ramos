@@ -7,6 +7,8 @@ public class Exercicio01 {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Porfavor digite seu nome:");
-        String nome = scan.nextline();
+        String nome = scan.nextLine();
+        
+        System.out.println(nome.toUpperCase());
     }
 }
