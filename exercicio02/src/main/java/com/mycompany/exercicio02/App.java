@@ -6,6 +6,8 @@ public class App {
         Aluno a = new Aluno(100, "fulano");
         Aluno a2 = new Aluno(200, "Ciclano");
         
+        a.setNome("Felipe");
+        
         Curso c1 = new Curso("Sistemas", 8);
         Curso c2 = new Curso("Agronomia", 10);
         
@@ -16,5 +18,8 @@ public class App {
         Matricula m2 = new Matricula(20242, a2, t2);
         
         //imprimir tudo que conseguir
+        System.out.println(m1.getAluno().getNome());
+        System.out.println(m1.getTurma().getDescricao());
+        System.out.println(m1.getTurma().getCurso().getNome());
     }
 }
